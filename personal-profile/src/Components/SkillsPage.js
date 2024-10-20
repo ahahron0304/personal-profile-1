@@ -15,7 +15,7 @@ const SkillsPage = () => {
               <Card border="dark" style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
-                  src="https://beadgrup.com/news/wp-content/uploads/2021/02/co.jpg"
+                  src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Symbol.png"
                 />
                 <Card.Body>
                   <Card.Title>JavaScript</Card.Title>

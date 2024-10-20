@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const HomePage = () => {
   const handleClick = () => {
@@ -24,12 +26,31 @@ const HomePage = () => {
           </Card.Text>
 
           <Card.Footer>
-            <p> Facebook: </p>
-            <Button variant="primary" onClick={handleClick}>
-              Go to Facebook
-            </Button>
-            <p>Email:</p>
-            <p>Contact: 09821092314</p>
+            <Row>
+              <Col>
+                <p>
+                  <strong>
+                    Facebook:{" "}
+                    <Button variant="primary" onClick={handleClick}>
+                      Go to Facebook
+                    </Button>
+                  </strong>
+                </p>
+                <Col>
+                  <p>
+                    <strong>
+                      Email:{" "}
+                      <a href="mailto:nolascojl283@gmail.com">
+                        nolascojl283@gmail.com
+                      </a>
+                    </strong>
+                  </p>
+                  <p>
+                    <strong>Contact:</strong> 09851092314
+                  </p>
+                </Col>
+              </Col>
+            </Row>
           </Card.Footer>
         </Card.Body>
       </Card>

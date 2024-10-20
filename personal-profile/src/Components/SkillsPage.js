@@ -66,23 +66,6 @@ const SkillsPage = () => {
               <Card border="dark" style={{ width: "18rem" }}>
                 <Card.Img
                   variant="top"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRgfZ2sG6xWL_Ag0kASTIytHshA2F419syVg&s"
-                />
-                <Card.Body>
-                  <Card.Title>Node.js</Card.Title>
-                  <Card.Text>
-                    Node.js is a runtime environment that allows developers to
-                    execute JavaScript code server-side, making it possible to
-                    build scalable, high-performance applications.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col sm={4}>
-              <Card border="dark" style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfMkNhiF3BDxSjVaenKOkg9ShQL1gtFIxxwA&s"
                 />
                 <Card.Body>
@@ -94,26 +77,6 @@ const SkillsPage = () => {
                 </Card.Body>
               </Card>
             </Col>
-
-            <Col sm={4}>
-              <Card border="dark" style={{ width: "18rem" }}>
-                <Card.Img
-                  variant="top"
-                  src="https://miro.medium.com/v2/resize:fit:850/0*3vxwGtPKV44S6EW2.jpg"
-                />
-                <Card.Body>
-                  <Card.Title>MySQL</Card.Title>
-                  <Card.Text>
-                    MySQL is a widely-used, open-source relational database
-                    management system (RDBMS). It allows for efficient storage,
-                    retrieval, and management of data across web applications.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          </Row>
-
-          <Row className="mt-3">
             <Col sm={4}>
               <Card border="dark" style={{ width: "18rem" }}>
                 <Card.Img

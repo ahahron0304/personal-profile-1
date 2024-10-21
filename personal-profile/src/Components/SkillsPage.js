@@ -43,6 +43,22 @@ const SkillsPage = () => {
                 </Card.Body>
               </Card>
             </Col>
+
+            <Col sm={4}>
+              <Card border="dark" style={{ width: "18rem" }}>
+                <Card.Img
+                  variant="top"
+                  src="https://i.pinimg.com/originals/d5/b9/3b/d5b93bad3c10cc5b92b47e4678598548.jpg"
+                />
+                <Card.Body>
+                  <Card.Title>CSS</Card.Title>
+                  <Card.Text>
+                    CSS (Cascading Style Sheets) is a styling language that
+                    describes how HTML elements are displayed on the screen.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
           </Row>
 
           <Row className="mt-3">
@@ -79,6 +95,25 @@ const SkillsPage = () => {
               </Card>
             </Col>
 
+            <Col sm={4}>
+              <Card border="dark" style={{ width: "18rem" }}>
+                <Card.Img
+                  variant="top"
+                  src="https://miro.medium.com/v2/resize:fit:850/0*3vxwGtPKV44S6EW2.jpg"
+                />
+                <Card.Body>
+                  <Card.Title>MySQL</Card.Title>
+                  <Card.Text>
+                    MySQL is a widely-used, open-source relational database
+                    management system (RDBMS). It allows for efficient storage,
+                    retrieval, and management of data across web applications.
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+
+          <Row className="mt-3">
             <Col sm={4}>
               <Card border="dark" style={{ width: "18rem" }}>
                 <Card.Img

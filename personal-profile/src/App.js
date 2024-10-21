@@ -18,7 +18,7 @@ function App() {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link" to="/">
-                  Home
+                  HomePage
                 </Link>
               </li>
               <li className="nav-item">
